@@ -11964,4 +11964,8 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.navbar-custom {
+  background: #ff4b1f;
+  background: linear-gradient(to right, #1fddff, #ff4b1f);
 }/*# sourceMappingURL=styles.css.map */
