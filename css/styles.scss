@@ -5,3 +5,10 @@
   background: -webkit-linear-gradient(to right, #1fddff, #ff4b1f);
   background: linear-gradient(to right, #1fddff, #ff4b1f);
 }
+
+.footer-custom {
+  @extend .navbar-custom;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+}
