@@ -11966,12 +11966,14 @@ textarea.form-control-lg {
   }
 }
 .navbar-custom, .footer-custom {
-  background: #ff4b1f;
-  background: linear-gradient(to right, #1fddff, #ff4b1f);
+  background: #25274d;
+  background: linear-gradient(to right, #6c72e6, #25274d);
+}
+.navbar-custom a, .footer-custom a {
+  color: white;
 }
 
 .footer-custom {
-  text-align: center;
-  font-weight: bold;
-  font-size: 12px;
+  font-size: 11px;
+  color: white;
 }/*# sourceMappingURL=styles.css.map */

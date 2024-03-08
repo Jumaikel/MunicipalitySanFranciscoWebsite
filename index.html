@@ -8,31 +8,42 @@
         <title>San Francisco Municipality</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-custom sticky-top">
+        <nav
+            class="navbar navbar-expand-lg bg-body-tertiary navbar-custom sticky-top">
             <div class="container-fluid">
                 <img src="img/favicon.png" alt="Logo" width="50" height="auto"
                     class="d-inline-block align-text-top">
-                <a class="navbar-brand ms-2" href="index.html">San Francisco
+                <a class="navbar-brand ms-2 fw-bold text-sm"
+                    href="index.html">San
+                    Francisco
                     Municipality</a>
                 <button class="navbar-toggler" type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-                    <div class="navbar-nav ms-auto">
-                        <a class="nav-link active" aria-current="page"
-                            href="#municipality">Municipality
-                        </a>
-                        <a class="nav-link active" aria-current="page"
-                            href="#services">Services
-                        </a>
-                        <a class="nav-link active" aria-current="page"
-                            href="#footer">Contacts
-                        </a>
-                    </div>
+                <div class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="#municipality">Municipality</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#procedures">Procedures</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contacts</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search"
+                            placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success"
+                            type="submit">Search</button>
+                    </form>
                 </div>
             </div>
         </nav>
@@ -82,8 +93,8 @@ azerbaijan_stockers Freepik">
 
         <div class="container pb-5">
             <div class="row pt-5" id="municipality">
-                <h2 class="text-center pt-3 pb-3">Municipality</h2>
-                <div class="col-6">
+                <h2 class="text-center pt-3 pb-3 fw-bold">Municipality</h2>
+                <div class="col-sm-12 col-md-6">
                     <p>Welcome to the official website of the Municipality of
                         San Francisco! We are proud to serve our vibrant
                         community with dedication and commitment. Located in the
@@ -106,7 +117,7 @@ azerbaijan_stockers Freepik">
                         maintaining our streets, parks and public spaces in
                         optimal conditions for the enjoyment of all.</p>
                 </div>
-                <div class="col-6">
+                <div class="col-sm-12 col-md-6">
                     <h3>News and events:</h3>
                     <p>Stay informed about the latest news and events in San
                         Francisco. From local festivals to development projects,
@@ -128,11 +139,12 @@ azerbaijan_stockers Freepik">
                 </div>
             </div>
 
-            <div class="row pt-5" id="services">
-                <h2 class="text-center pt-3 pb-3">Services</h2>
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/constructionpermit.jpg" class="card-img-top" alt="vectorjuice Freepik">
+            <div class="row pt-5" id="procedures">
+                <h2 class="text-center pt-3 pb-3 fw-bold">Procedures</h2>
+                <div class="col-sm-12 col-md-6 col-lg-3 mb-sm-1">
+                    <div class="card" style="width: 17rem;">
+                        <img src="img/constructionpermit.jpg"
+                            class="card-img-top" alt="vectorjuice Freepik">
                         <div class="card-body">
                             <h5 class="card-title">Construction permits</h5>
                             <p class="card-text">Some quick example text to
@@ -146,9 +158,9 @@ azerbaijan_stockers Freepik">
                     </div>
                 </div>
 
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card" style="width: 17rem;">
+                        <img src="img/mpolice.jpg" class="card-img-top" alt="storyset Freepik">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">For procedures and inquiries
@@ -158,9 +170,9 @@ azerbaijan_stockers Freepik">
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                <div class="col-sm-12 col-md-6 col-lg-3 mb-sm-1">
+                    <div class="card" style="width: 17rem;">
+                        <img src="img/estate.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to
@@ -173,9 +185,9 @@ azerbaijan_stockers Freepik">
                     </div>
                 </div>
 
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                <div class="col-sm-12 col-md-6 col-lg-3 mb-sm-1">
+                    <div class="card" style="width: 17rem;">
+                        <img src="img/construction.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to
@@ -190,38 +202,27 @@ azerbaijan_stockers Freepik">
             </div>
         </div>
 
-        <footer class="container-fluid p-3 footer-custom" id="footer">
+        <footer class="container-fluid p-2 footer-custom" id="footer">
             <div class="row">
-                <div class="col-3">
-                    <p>Hours: <br>Monday to Friday from 8:00am - 4:30pm</p>
-                    <p>
-                        Telephone Central: <br>00000000
-                    </p>
-                    <p>Email: <br>communication@mssanfrancisco.go.cr
-                    </p>
-                    <p>Address: <br>100m east of Central Park, San
+                <div class="col-sm-12 col-md-6">
+                    <p class="text-center fw-bold">Hours: <br>Monday to Friday
+                        from 8:00am - 4:30pm <br>
+                        Telephone Central: <br>00000000 <br>Email:
+                        <br>communication@mssanfrancisco.go.cr <br>Address:
+                        <br>100m
+                        east of Central Park, San
                         Francisco</p>
                 </div>
-                <div class="col-6">
-                    <img src="img/favicon.png" alt="Logo" width="150"
+                <div class="col-sm-12 col-md-5 text-center">
+                    <img src="img/favicon.png" alt="Logo" width="115"
                         height="auto"
                         class="d-inline-block align-text-buttom">
-                    <div class="row pt-2">
+                    <div class="row pt-2 ps-4 pe-4">
                         <div class="col-4"><a href>Terms and
                                 Conditions</a></div>
                         <div class="col-4"><a href>Privacy policies</a></div>
                         <div class="col-4"><a href>Cookies declaration</a></div>
                     </div>
-                </div>
-                <div class="col-3">
-                    <p>Hours: <br>Monday to Friday from 8:00am - 4:30pm</p>
-                    <p>
-                        Telephone Central: <br>00000000
-                    </p>
-                    <p>Email: <br>communication@mssanfrancisco.go.cr
-                    </p>
-                    <p>Address: <br>100m east of Central Park, San
-                        Francisco</p>
                 </div>
             </div>
         </footer>

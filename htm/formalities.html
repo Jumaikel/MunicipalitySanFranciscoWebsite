@@ -9,47 +9,33 @@
   </head>
 
   <body>
-    <!-- Barra de navegación principal -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-custom sticky-top"
-      >
-      <div class="container-fluid">
-        <img
-          src="../img/favicon.png"
-          alt="Logo"
-          width="50"
-          height="auto"
-          class="d-inline-block align-text-top"
-        />
-        <a class="navbar-brand ms-2" href="../index.html"
-          >San Francisco Municipality</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="#municipality"
-              >Municipality
-            </a>
-            <a class="nav-link active" aria-current="page" href="#services"
-              >Services
-            </a>
-            <a class="nav-link active" aria-current="page" href="#footer"
-              >Contacts
-            </a>
-            
-          </div>
-        </div>
-      </div>
-    </nav>
+    <nav
+            class="navbar navbar-expand-lg bg-body-tertiary navbar-custom sticky-top">
+            <div class="container-fluid">
+                <img src="../img/favicon.png" alt="Logo" width="50" height="auto"
+                    class="d-inline-block align-text-top">
+                <a class="navbar-brand ms-2 fw-bold text-sm"
+                    href="index.html">San
+                    Francisco
+                    Municipality</a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse "
+                    id="navbarSupportedContent">
+                    <form class="d-flex ms-auto" role="search">
+                        <input class="form-control me-2" type="search"
+                            placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success"
+                            type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
 
     <div class="container-fluid">
       <div class="row">
@@ -375,7 +361,6 @@
                         • Works that are not affected by what is indicated in the previous point may be carried out without needing the authorization of the professional contemplated in Article 83 bis of the Construction Law, as long as they adhere to the definition of minor work ( Work with an area equal to or less than 40m), included in Article 46 of the Territorial Planning Plan. In the case of home extensions, on the second floor in an area less than 40 m, the presentation of a sketch signed by a Responsible Professional, registered with the CFIA, is required.
                     </dd>
                   </dl>
-                
                   <button type="button" class="btn btn-success">Forms</button>
                 </div>
               </div>
@@ -384,38 +369,32 @@
         </div>
       </div>
     </div>
-  </body>
 
-  <footer class="container-fluid p-3 footer-custom" id="footer">
-    <div class="row">
-      <div class="col-3">
-        <p>Hours: <br />Monday to Friday from 8:00am - 4:30pm</p>
-        <p>Telephone Central: <br />00000000</p>
-        <p>Email: <br />communication@mssanfrancisco.go.cr</p>
-        <p>Address: <br />100m east of Central Park, San Francisco</p>
-      </div>
-      <div class="col-6">
-        <img
-          src="../img/favicon.png"
-          alt="Logo"
-          width="165"
-          height="auto"
-          class="d-inline-block align-text-buttom"
-        />
-        <div class="row p-2">
-          <div class="col-4"><a href>Terms and Conditions</a></div>
-          <div class="col-4"><a href>Privacy policies</a></div>
-          <div class="col-4"><a href>Cookies declaration</a></div>
-        </div>
-      </div>
-      <div class="col-3">
-        <p>Hours: <br />Monday to Friday from 8:00am - 4:30pm</p>
-        <p>Telephone Central: <br />00000000</p>
-        <p>Email: <br />communication@mssanfrancisco.go.cr</p>
-        <p>Address: <br />100m east of Central Park, San Francisco</p>
-      </div>
-    </div>
-  </footer>
+            <footer class="container-fluid p-2 footer-custom" id="footer">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <p class="text-center fw-bold">Hours: <br>Monday to Friday
+                        from 8:00am - 4:30pm <br>
+                        Telephone Central: <br>00000000 <br>Email:
+                        <br>communication@mssanfrancisco.go.cr <br>Address:
+                        <br>100m
+                        east of Central Park, San
+                        Francisco</p>
+                </div>
+                <div class="col-sm-12 col-md-5 text-center">
+                    <img src="../img/favicon.png" alt="Logo" width="115"
+                        height="auto"
+                        class="d-inline-block align-text-buttom">
+                    <div class="row pt-2 ps-4 pe-4">
+                        <div class="col-4"><a href>Terms and
+                                Conditions</a></div>
+                        <div class="col-4"><a href>Privacy policies</a></div>
+                        <div class="col-4"><a href>Cookies declaration</a></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
 </html>
