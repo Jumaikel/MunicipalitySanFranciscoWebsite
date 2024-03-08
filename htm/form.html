@@ -1,79 +1,497 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
-        <title>San Francisco Municipality | Construction Permit Form</title>
-    </head>
-    <body>
-        <nav
-            class="navbar navbar-expand-lg bg-body-tertiary navbar-custom sticky-top">
-            <div class="container-fluid">
-                <img src="../img/favicon.png" alt="Logo" width="50" height="auto"
-                    class="d-inline-block align-text-top">
-                <a class="navbar-brand ms-2 fw-bold text-sm"
-                    href="index.html">San
-                    Francisco
-                    Municipality</a>
-                <button class="navbar-toggler" type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse"
-                    id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link"
-                                href="#municipality">Municipality</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"
-                                href="#procedures">Procedures</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#footer">Contacts</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search"
-                            placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success"
-                            type="submit">Search</button>
-                    </form>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+   
+    <title>San Francisco Municipality | Construction Permit Form</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-custom sticky-top">
+        <div class="container-fluid">
+            <img src="img/favicon.png" alt="Logo" width="50" height="auto"
+                class="d-inline-block align-text-top">
+            <a class="navbar-brand ms-2" href="index.html">San Francisco
+                Municipality</a>
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page"
+                        href="#municipality">Municipality
+                    </a>
+                    <a class="nav-link active" aria-current="page"
+                        href="#services">Services
+                    </a>
+                    <a class="nav-link active" aria-current="page"
+                        href="#footer">Contacts
+                    </a>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
+    <div class="container-fluid">
+      
+      <div class="row">
+        <div class="col-md-4">
+          <img alt="San Francisco Municipality" src="../img/favicon.png" />
+        </div>
+        <div class="col-md-4">
+          <h3 class="text-center">
+            SAN FRANCISCO MUNICIPALITY TERRITORIAL ORGANIZATION PROCESS URBAN
+            CONTROL SUB PROCESS CONSTRUCTION PERMIT APPLICATION
+          </h3>
+        </div>
+        <div class="col-md-4">
+          <div class="alert alert-success alert-dismissable">
+            <h4>Alert!</h4>
+            <strong>Warning!</strong> Please ensure all required fields are
+            completed. Incomplete forms will not be accepted.
+            <a href="#" class="alert-link">Learn more.</a>
+          </div>
+        </div>
+      </div>
 
-        <footer class="container-fluid p-2 footer-custom" id="footer">
+     
+      <form role="form">
+        <div class="row">
+          <div class="col-md-12">
+            <p><strong>Fecha de ingreso:</strong></p>
+            <p><strong>Owner information:</strong></p>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="nameOrSocialReason">Name or Social reason</label>
+          <input type="text" class="form-control" id="nameOrSocialReason" />
+        </div>
+        <div class="form-group">
+          <label for="physicalOrLegalID">Physical or Legal ID</label>
+          <input type="text" class="form-control" id="physicalOrLegalID" />
+        </div>
+
+     
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="phoneNumber">Phone number</label>
+              <input type="text" class="form-control" id="phoneNumber" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="faxNumber">Fax Number</label>
+              <input type="text" class="form-control" id="faxNumber" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="emailAddress">Email address</label>
+              <input type="email" class="form-control" id="emailAddress" />
+            </div>
+          </div>
+        </div>
+      
+        <div class="form-group">
+          <label for="fiscalDomicile">Fiscal Domicile (Address):</label>
+          <input type="text" class="form-control" id="fiscalDomicile" />
+        </div>
+
+       
+        <h6>PROPERTY LOCATION</h6>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="district">DISTRICT</label>
+              <input type="text" class="form-control" id="district" />
+            </div>
+            <div class="form-group">
+              <label for="exactDirection">EXACT DIRECTION</label>
+              <input type="text" class="form-control" id="exactDirection" />
+            </div>
+            <div class="form-group">
+              <label for="otherSigns">OTHER SIGNS</label>
+              <input type="text" class="form-control" id="otherSigns" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="neighborhood">NEIGHBORHOOD</label>
+              <input type="text" class="form-control" id="neighborhood" />
+            </div>
+          </div>
+        </div>
+
+        <h6>REGISTRATION IN THE PUBLIC REGISTRY</h6>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="royalFolio">Royal Folio</label>
+              <input type="text" class="form-control" id="royalFolio" />
+            </div>
+            <div class="form-group">
+              <label for="landArea">Land area</label>
+              <input type="text" class="form-control" id="landArea" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="publicStreetFront">In front of Public Street:</label>
+              <input type="text" class="form-control" id="publicStreetFront" />
+            </div>
+            <div class="form-group">
+              <label for="registeredPlanNumber"
+                >m² Registered Plan Number:</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="registeredPlanNumber"
+              />
+            </div>
+          </div>
+        </div>
+
+        
+        <h6>PERMISSION FOR</h6>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="checkbox">
+              <label
+                ><input type="checkbox" id="permissionConstruction" />
+                Construction</label
+              >
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="checkbox">
+              <label
+                ><input type="checkbox" id="permissionRemodel" /> Remodel</label
+              >
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="checkbox">
+              <label
+                ><input type="checkbox" id="permissionDemolition" />
+                Demolition</label
+              >
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="checkbox">
+              <label
+                ><input type="checkbox" id="permissionOther" /> Other</label
+              >
+            </div>
+          </div>
+        </div>
+
+      
+        <h6>ESTIMATED DURATION OF THE WORK TO BE PERFORMED: (Specify)</h6>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="checkbox">
+              <label><input type="checkbox" id="durationDays" /> Days</label>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="checkbox">
+              <label
+                ><input type="checkbox" id="durationMonths" /> Months</label
+              >
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="checkbox">
+              <label><input type="checkbox" id="durationYears" /> Years</label>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <h6>CLASS OF WORK:</h6>
+          <form>
             <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <p class="text-center fw-bold">Hours: <br>Monday to Friday
-                        from 8:00am - 4:30pm <br>
-                        Telephone Central: <br>00000000 <br>Email:
-                        <br>communication@mssanfrancisco.go.cr <br>Address:
-                        <br>100m
-                        east of Central Park, San
-                        Francisco</p>
+              <div class="col-sm-6 col-lg-3 form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="workClass"
+                    value="housing"
+                  />
+                  Housing
+                </label>
+              </div>
+              <div class="col-sm-6 col-lg-3 form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="workClass"
+                    value="urbanization"
+                  />
+                  Urbanization
+                </label>
+              </div>
+              <div class="col-sm-6 col-lg-3 form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="workClass"
+                    value="industrial"
+                  />
+                  Industrial type
+                </label>
+              </div>
+              <div class="col-sm-6 col-lg-3 form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="workClass"
+                    value="parks"
+                  />
+                  Parks
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-lg-3 form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="workClass"
+                    value="offices"
+                  />
+                  Offices
+                </label>
+              </div>
+              <div class="col-sm-6 col-lg-3 form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="workClass"
+                    value="housingComplex"
+                  />
+                  Housing Complex
+                </label>
+              </div>
+              <div class="col-sm-6 col-lg-3 form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="workClass"
+                    value="tourism"
+                  />
+                  Tourism
+                </label>
+              </div>
+              <div class="col-sm-6 col-lg-3 form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="workClass"
+                    value="sports"
+                  />
+                  Sports
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-lg-3 form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="workClass"
+                    value="condominium"
+                  />
+                  Condominium
+                </label>
+              </div>
+              <div class="col-sm-6 col-lg-3 form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="workClass"
+                    value="commercial"
+                  />
+                  Commercial Premises
+                </label>
+              </div>
+              <div class="col-sm-6 col-lg-3 form-check">
+                <label class="form-check-label">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    name="workClass"
+                    value="education"
+                  />
+                  Educational Facilities
+                </label>
+              </div>
+              <div class="col-sm-6 col-lg-3 form-check">
+                <div>
+                  <label for="otherText" class="form-label">Other:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="otherText"
+                    name="otherText"
+                  />
                 </div>
-                <div class="col-sm-12 col-md-5 text-center">
-                    <img src="../img/favicon.png" alt="Logo" width="115"
-                        height="auto"
-                        class="d-inline-block align-text-buttom">
-                    <div class="row pt-2 ps-4 pe-4">
-                        <div class="col-4"><a href>Terms and
-                                Conditions</a></div>
-                        <div class="col-4"><a href>Privacy policies</a></div>
-                        <div class="col-4"><a href>Cookies declaration</a></div>
-                    </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+         <div class="row">
+          <div class="col-md-12">
+            <h6>ESTIMATED DURATION OF THE WORK TO BE PERFORMED: (Specify)</h6>
+            <div class="form-group">
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="durationDays"
+                  value="Days"
+                />
+                <label class="form-check-label" for="durationDays">Days</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="durationMonths"
+                  value="Months"
+                />
+                <label class="form-check-label" for="durationMonths"
+                  >Months</label
+                >
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="durationYears"
+                  value="Years"
+                />
+                <label class="form-check-label" for="durationYears"
+                  >Years</label
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <h6>SIDEWALK CLOSURE: (Time)</h6>
+            <div class="form-group">
+           
+            </div>
+          </div>
+        </div>
+
+   
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="professionalName"
+                >NAME AND SIGNATURE OF THE PROFESSIONAL RESPONSIBLE FOR THE
+                WORK</label
+              >
+              <input type="text" class="form-control" id="professionalName" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="professionalID">ID NUMBER:</label>
+              <input type="text" class="form-control" id="professionalID" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="ownerSignature"
+                >SIGNATURE OF THE OWNER OR LEGAL REPRESENTATIVE</label
+              >
+              <input type="text" class="form-control" id="ownerSignature" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="ownerID">ID NUMBER:</label>
+              <input type="text" class="form-control" id="ownerID" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Observations -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="observations">Observations</label>
+              <textarea class="form-control" id="observations"></textarea>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <a href="../htm/index.html" class="btn btn-success" role="button">Send</a>
+    <footer class="container-fluid p-3 footer-custom" id="footer">
+        <div class="row">
+            <div class="col-3">
+                <p>Hours: <br>Monday to Friday from 8:00am - 4:30pm</p>
+                <p>
+                    Telephone Central: <br>00000000
+                </p>
+                <p>Email: <br>communication@mssanfrancisco.go.cr
+                </p>
+                <p>Address: <br>100m east of Central Park, San
+                    Francisco</p>
+            </div>
+            <div class="col-6">
+                <img src="img/favicon.png" alt="Logo" width="150"
+                    height="auto"
+                    class="d-inline-block align-text-buttom">
+                <div class="row pt-2">
+                    <div class="col-4"><a href>Terms and
+                            Conditions</a></div>
+                    <div class="col-4"><a href>Privacy policies</a></div>
+                    <div class="col-4"><a href>Cookies declaration</a></div>
                 </div>
             </div>
-        </footer>
 
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    </body>
+            <div class="col-3">
+                <p>Hours: <br>Monday to Friday from 8:00am - 4:30pm</p>
+                <p>
+                    Telephone Central: <br>00000000
+                </p>
+                <p>Email: <br>communication@mssanfrancisco.go.cr
+                </p>
+                <p>Address: <br>100m east of Central Park, San
+                    Francisco</p>
+            </div>
+        </div>
+    </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
 </html>
