@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/styles.css" />
+        <link rel="shortcut icon" href="../img/favicon.png"
+            type="image/x-icon" />
+        <title>San Francisco Municipality | Send-Form</title>
+    </head>
+    <body>
+        <nav
+            class="navbar navbar-expand-lg bg-body-tertiary navbar-custom sticky-top">
+            <div class="container-fluid">
+                <img src="../img/favicon.png" alt="Logo" width="50"
+                    height="auto"
+                    class="d-inline-block align-text-top">
+                <a class="navbar-brand ms-2 fw-bold me-auto"
+                    href="../index.html">San
+                    Francisco
+                    Municipality</a>
+            </div>
+        </nav>
+        <div class="container btn-send p-3 m-auto">
+            <img
+                alt="San Francisco Municipality"
+                src="../img/favicon.png"
+                width="130px"
+                height="auto" />
+            <p class="fw-bold ">Form verification and submission</p>
+            <div class="row text-center pb-5 mt-3">
+                <label for="id-input">Identification</label>
+                <input type="text" id="id-input" class="text-input">
+                <label for="email-input">Email</label>
+                <input type="text" id="email-input" class="text-input">
+                <label for="verification-input">Verification Code</label>
+                <input type="text" id="verification-input" class="text-input">
+            </div>
+            <div class="row mt-auto mb-4">
+                <input type="checkbox" class="btn-send-input" id="btn-send">
+                <label class="btn-send-label" for="btn-send">Send</label>
+            </div>
+        </div>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
