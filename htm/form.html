@@ -10,19 +10,16 @@
   </head>
   <body>
     <nav
-      class="navbar navbar-expand-lg bg-body-tertiary navbar-custom sticky-top"
-    >
+      class="navbar navbar-expand-lg bg-body-tertiary navbar-custom sticky-top">
       <div class="container-fluid">
         <img
           src="../img/favicon.png"
           alt="Logo"
           width="50"
           height="auto"
-          class="d-inline-block align-text-top"
-        />
-        <a class="navbar-brand ms-2 fw-bold text-sm" href="../index.html"
-          >San Francisco Municipality</a
-        >
+          class="d-inline-block align-text-top" />
+        <a class="navbar-brand ms-2 fw-bold text-sm" href="../index.html">San
+          Francisco Municipality</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -30,8 +27,7 @@
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -40,8 +36,7 @@
               class="form-control me-2"
               type="search"
               placeholder="Search"
-              aria-label="Search"
-            />
+              aria-label="Search" />
             <button class="btn btn-outline-success" type="submit">
               Search
             </button>
@@ -56,8 +51,7 @@
             alt="San Francisco Municipality"
             src="../img/favicon.png"
             width="200 px"
-            height="auto"
-          />
+            height="auto" />
         </div>
         <div class="col-md-4" id="title">
           <h3 id="special-h3" class="text-center">
@@ -85,37 +79,43 @@
 
         <div class="form-group">
           <label for="nameOrSocialReason">Name or Social reason</label>
-          <input type="text" class="form-control" id="nameOrSocialReason" />
+          <input type="text" class="form-control" id="nameOrSocialReason"
+            required="required" />
         </div>
         <div class="form-group">
           <label for="physicalOrLegalID">Physical or Legal ID</label>
-          <input type="text" class="form-control" id="physicalOrLegalID" />
+          <input type="text" class="form-control" id="physicalOrLegalID"
+            required="required" />
         </div>
 
         <div class="row">
           <div class="col-md-4">
             <div class="form-group">
               <label for="phoneNumber">Phone number</label>
-              <input type="text" class="form-control" id="phoneNumber" />
+              <input type="text" class="form-control" id="phoneNumber"
+                required="required" />
             </div>
           </div>
           <div class="col-md-4">
             <div class="form-group">
               <label for="faxNumber">Fax Number</label>
-              <input type="text" class="form-control" id="faxNumber" />
+              <input type="text" class="form-control" id="faxNumber"
+                required="required" />
             </div>
           </div>
           <div class="col-md-4">
             <div class="form-group">
               <label for="emailAddress">Email address</label>
-              <input type="email" class="form-control" id="emailAddress" />
+              <input type="email" class="form-control" id="emailAddress"
+                required="required" />
             </div>
           </div>
         </div>
 
         <div class="form-group">
           <label for="fiscalDomicile">Fiscal Domicile (Address):</label>
-          <input type="text" class="form-control" id="fiscalDomicile" />
+          <input type="text" class="form-control" id="fiscalDomicile"
+            required="required" />
         </div>
 
         <h6>PROPERTY LOCATION</h6>
@@ -123,21 +123,25 @@
           <div class="col-md-6">
             <div class="form-group">
               <label for="district">DISTRICT</label>
-              <input type="text" class="form-control" id="district" />
+              <input type="text" class="form-control" id="district"
+                required="required" />
             </div>
             <div class="form-group">
               <label for="exactDirection">EXACT DIRECTION</label>
-              <input type="text" class="form-control" id="exactDirection" />
+              <input type="text" class="form-control" id="exactDirection"
+                required="required" />
             </div>
             <div class="form-group">
               <label for="otherSigns">OTHER SIGNS</label>
-              <input type="text" class="form-control" id="otherSigns" />
+              <input type="text" class="form-control" id="otherSigns"
+                required="required" />
             </div>
           </div>
           <div class="col-md-6">
             <div class="form-group">
               <label for="neighborhood">NEIGHBORHOOD</label>
-              <input type="text" class="form-control" id="neighborhood" />
+              <input type="text" class="form-control" id="neighborhood"
+                required="required" />
             </div>
           </div>
         </div>
@@ -147,27 +151,28 @@
           <div class="col-md-6">
             <div class="form-group">
               <label for="royalFolio">Royal Folio</label>
-              <input type="text" class="form-control" id="royalFolio" />
+              <input type="text" class="form-control" id="royalFolio"
+                required="required" />
             </div>
             <div class="form-group">
               <label for="landArea">Land area</label>
-              <input type="text" class="form-control" id="landArea" />
+              <input type="text" class="form-control" id="landArea"
+                required="required" />
             </div>
           </div>
           <div class="col-md-6">
             <div class="form-group">
               <label for="publicStreetFront">In front of Public Street:</label>
-              <input type="text" class="form-control" id="publicStreetFront" />
+              <input type="text" class="form-control" id="publicStreetFront"
+                required="required" />
             </div>
             <div class="form-group">
-              <label for="registeredPlanNumber"
-                >m² Registered Plan Number:</label
-              >
+              <label for="registeredPlanNumber">m² Registered Plan
+                Number:</label>
               <input
                 type="text"
                 class="form-control"
-                id="registeredPlanNumber"
-              />
+                id="registeredPlanNumber" />
             </div>
           </div>
         </div>
@@ -176,32 +181,26 @@
         <div class="row">
           <div class="col-md-3">
             <div class="checkbox">
-              <label
-                ><input type="checkbox" id="permissionConstruction" />
-                Construction</label
-              >
+              <label><input type="checkbox" id="permissionConstruction" />
+                Construction</label>
             </div>
           </div>
           <div class="col-md-3">
             <div class="checkbox">
-              <label
-                ><input type="checkbox" id="permissionRemodel" /> Remodel</label
-              >
+              <label><input type="checkbox" id="permissionRemodel" />
+                Remodel</label>
             </div>
           </div>
           <div class="col-md-3">
             <div class="checkbox">
-              <label
-                ><input type="checkbox" id="permissionDemolition" />
-                Demolition</label
-              >
+              <label><input type="checkbox" id="permissionDemolition" />
+                Demolition</label>
             </div>
           </div>
           <div class="col-md-3">
             <div class="checkbox">
-              <label
-                ><input type="checkbox" id="permissionOther" /> Other</label
-              >
+              <label><input type="checkbox" id="permissionOther" />
+                Other</label>
             </div>
           </div>
         </div>
@@ -215,9 +214,8 @@
           </div>
           <div class="col-md-4">
             <div class="checkbox">
-              <label
-                ><input type="checkbox" id="durationMonths" /> Months</label
-              >
+              <label><input type="checkbox" id="durationMonths" />
+                Months</label>
             </div>
           </div>
           <div class="col-md-4">
@@ -236,8 +234,7 @@
                     type="checkbox"
                     class="form-check-input"
                     name="workClass"
-                    value="housing"
-                  />
+                    value="housing" />
                   Housing
                 </label>
               </div>
@@ -247,8 +244,7 @@
                     type="checkbox"
                     class="form-check-input"
                     name="workClass"
-                    value="urbanization"
-                  />
+                    value="urbanization" />
                   Urbanization
                 </label>
               </div>
@@ -258,8 +254,7 @@
                     type="checkbox"
                     class="form-check-input"
                     name="workClass"
-                    value="industrial"
-                  />
+                    value="industrial" />
                   Industrial type
                 </label>
               </div>
@@ -269,8 +264,7 @@
                     type="checkbox"
                     class="form-check-input"
                     name="workClass"
-                    value="parks"
-                  />
+                    value="parks" />
                   Parks
                 </label>
               </div>
@@ -282,8 +276,7 @@
                     type="checkbox"
                     class="form-check-input"
                     name="workClass"
-                    value="offices"
-                  />
+                    value="offices" />
                   Offices
                 </label>
               </div>
@@ -293,8 +286,7 @@
                     type="checkbox"
                     class="form-check-input"
                     name="workClass"
-                    value="housingComplex"
-                  />
+                    value="housingComplex" />
                   Housing Complex
                 </label>
               </div>
@@ -304,8 +296,7 @@
                     type="checkbox"
                     class="form-check-input"
                     name="workClass"
-                    value="tourism"
-                  />
+                    value="tourism" />
                   Tourism
                 </label>
               </div>
@@ -315,8 +306,7 @@
                     type="checkbox"
                     class="form-check-input"
                     name="workClass"
-                    value="sports"
-                  />
+                    value="sports" />
                   Sports
                 </label>
               </div>
@@ -328,8 +318,7 @@
                     type="checkbox"
                     class="form-check-input"
                     name="workClass"
-                    value="condominium"
-                  />
+                    value="condominium" />
                   Condominium
                 </label>
               </div>
@@ -339,8 +328,7 @@
                     type="checkbox"
                     class="form-check-input"
                     name="workClass"
-                    value="commercial"
-                  />
+                    value="commercial" />
                   Commercial Premises
                 </label>
               </div>
@@ -350,8 +338,7 @@
                     type="checkbox"
                     class="form-check-input"
                     name="workClass"
-                    value="education"
-                  />
+                    value="education" />
                   Educational Facilities
                 </label>
               </div>
@@ -362,8 +349,7 @@
                     type="text"
                     class="form-control"
                     id="otherText"
-                    name="otherText"
-                  />
+                    name="otherText" />
                 </div>
               </div>
             </div>
@@ -379,8 +365,7 @@
                   class="form-check-input"
                   type="checkbox"
                   id="durationDays"
-                  value="Days"
-                />
+                  value="Days" />
                 <label class="form-check-label" for="durationDays">Days</label>
               </div>
               <div class="form-check form-check-inline">
@@ -388,22 +373,18 @@
                   class="form-check-input"
                   type="checkbox"
                   id="durationMonths"
-                  value="Months"
-                />
-                <label class="form-check-label" for="durationMonths"
-                  >Months</label
-                >
+                  value="Months" />
+                <label class="form-check-label"
+                  for="durationMonths">Months</label>
               </div>
               <div class="form-check form-check-inline">
                 <input
                   class="form-check-input"
                   type="checkbox"
                   id="durationYears"
-                  value="Years"
-                />
-                <label class="form-check-label" for="durationYears"
-                  >Years</label
-                >
+                  value="Years" />
+                <label class="form-check-label"
+                  for="durationYears">Years</label>
               </div>
             </div>
           </div>
@@ -419,17 +400,18 @@
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <label for="professionalName"
-                >NAME AND SIGNATURE OF THE PROFESSIONAL RESPONSIBLE FOR THE
-                WORK</label
-              >
-              <input type="text" class="form-control" id="professionalName" />
+              <label for="professionalName">NAME AND SIGNATURE OF THE
+                PROFESSIONAL RESPONSIBLE FOR THE
+                WORK</label>
+              <input type="text" class="form-control" id="professionalName"
+                required="required" />
             </div>
           </div>
           <div class="col-md-6">
             <div class="form-group">
               <label for="professionalID">ID NUMBER:</label>
-              <input type="text" class="form-control" id="professionalID" />
+              <input type="text" class="form-control" id="professionalID"
+                required="required" />
             </div>
           </div>
         </div>
@@ -437,16 +419,17 @@
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <label for="ownerSignature"
-                >SIGNATURE OF THE OWNER OR LEGAL REPRESENTATIVE</label
-              >
-              <input type="text" class="form-control" id="ownerSignature" />
+              <label for="ownerSignature">SIGNATURE OF THE OWNER OR LEGAL
+                REPRESENTATIVE</label>
+              <input type="text" class="form-control" id="ownerSignature"
+                required="required" />
             </div>
           </div>
           <div class="col-md-6">
             <div class="form-group">
               <label for="ownerID">ID NUMBER:</label>
-              <input type="text" class="form-control" id="ownerID" />
+              <input type="text" class="form-control" id="ownerID"
+                required="required" />
             </div>
           </div>
         </div>
@@ -462,7 +445,9 @@
         </div>
       </form>
     </div>
-    <a href="../htm/send-form.html" class="btn btn-success m-3" role="button">Send</a>
+
+    <a href="../htm/send-form.html" class="btn btn-success m-3"
+      onclick="return validateForm();" role="button">Send</a>
 
     <footer class="container-fluid p-2 footer-custom" id="footer">
       <div class="row">
@@ -480,8 +465,7 @@
             alt="Logo"
             width="115"
             height="auto"
-            class="d-inline-block align-text-buttom"
-          />
+            class="d-inline-block align-text-buttom" />
           <div class="row pt-2 ps-4 pe-4">
             <div class="col-4"><a href>Terms and Conditions</a></div>
             <div class="col-4"><a href>Privacy policies</a></div>
@@ -491,6 +475,6 @@
       </div>
     </footer>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="../js/script.js"></script>
   </body>
 </html>

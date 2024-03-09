@@ -14,3 +14,15 @@ function performSearch() {
     }
   });
 }
+
+function validateForm() {
+  var requiredInputs = document.querySelectorAll('input[required="required"]');
+
+  for (var i = 0; i < requiredInputs.length; i++) {
+    if (!requiredInputs[i].value) {
+      alert("Please complete all required fields.");
+      return false;
+    }
+  }
+  return true;
+}
