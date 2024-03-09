@@ -27,8 +27,8 @@
                 </button>
                 <div class="collapse navbar-collapse "
                     id="navbarSupportedContent">
-                    <form class="d-flex ms-auto" role="search">
-                        <input class="form-control me-2" type="search"
+                    <form class="d-flex ms-auto"  id="search-form" role="search">
+                        <input class="form-control me-2" type="search" id="search-input"
                             placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success"
                             type="submit">Search</button>
@@ -42,30 +42,30 @@
         <div class="col-md-12">
           <div class="row">
             <div class="col-md-3">
-              <div class="card">
+              <div class="card" id="formalities">
                 <h5 class="card-header">Formalities</h5>
 
-                <div class="card-body">
+                <div class="card-body" id="onlineprocedures">
                   <p class="card-text">Online procedures</p>
                 </div>
-                <div class="card-body">
+                <div class="card-body" id="citizens">
                   <p class="card-text">Citizens</p>
                 </div>
-                <div class="card-body">
+                <div class="card-body" id="companies">
                   <p class="card-text">Companies</p>
                 </div>
-                <div class="card-body">
+                <div class="card-body" id="onestop">
                   <p class="card-text">One-stop investment window</p>
                 </div>
-                <div class="card-footer">Other payment methods</div>
+                <div class="card-footer" id="otherpay">Other payment methods</div>
               </div>
               <video class="video mt-2" controls>
                         <source src="../vid/planet.mp4" type="video/mp4" with>
-                        Tu navegador no soporta el elemento de video.
+                        Your browser does not support the video element.
                       </video>
             </div>
 
-            <div class="col-md-9">
+            <div class="col-md-9" id="constructionpermit">
               <h3 class="text-left">Construction Permit Requirements</h3>
               <div class="row">
                 <div class="col-md-4">
@@ -88,7 +88,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12" id="according">
                   <p>
                     According to the Territorial Planning Plan, the requirements
                     are defined according to the type of work to be carried out,
@@ -375,7 +375,7 @@
 
             <footer class="container-fluid p-2 footer-custom" id="footer">
             <div class="row">
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12 col-md-6" id="info">
                     <p class="text-center fw-bold">Hours: <br>Monday to Friday
                         from 8:00am - 4:30pm <br>
                         Telephone Central: <br>00000000 <br>Email:
@@ -397,7 +397,7 @@
                 </div>
             </div>
         </footer>
-
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="../js/script.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

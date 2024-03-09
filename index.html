@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet">
         <title>San Francisco Municipality</title>
     </head>
     <body>
@@ -33,14 +35,16 @@
                                 href="#municipality">Municipality</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#procedures">Procedures</a>
+                            <a class="nav-link"
+                                href="#procedures">Procedures</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#footer">Contacts</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
+                    <form class="d-flex" id="search-form" role="search">
                         <input class="form-control me-2" type="search"
+                            id="search-input"
                             placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success"
                             type="submit">Search</button>
@@ -49,7 +53,8 @@
             </div>
         </nav>
 
-        <div id="carouselExampleIndicators" class="carousel slide">
+        <div id="carouselExampleIndicators"
+            class="carousel slide search-content">
             <div class="carousel-indicators">
                 <button type="button"
                     data-bs-target="#carouselExampleIndicators"
@@ -63,11 +68,11 @@
                     data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner p-3">
-                <div class="carousel-item active">
+                <div class="carousel-item ">
                     <img src="img/houses.png" class="d-block w-100"
                         alt="Freepik">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item active">
                     <img src="img/crops.png" class="d-block w-100" alt="
 azerbaijan_stockers Freepik">
                 </div>
@@ -92,10 +97,10 @@ azerbaijan_stockers Freepik">
             </button>
         </div>
 
-        <div class="container pb-5">
+        <div class="container pb-5 ">
             <div class="row pt-5" id="municipality">
                 <h2 class="text-center pt-3 pb-3 fw-bold">Municipality</h2>
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12 col-md-6" id="municipality-col-1">
                     <p>Welcome to the official website of the Municipality of
                         San Francisco! We are proud to serve our vibrant
                         community with dedication and commitment. Located in the
@@ -118,7 +123,7 @@ azerbaijan_stockers Freepik">
                         maintaining our streets, parks and public spaces in
                         optimal conditions for the enjoyment of all.</p>
                 </div>
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12 col-md-6" id="municipality-col-2">
                     <h3>News and events:</h3>
                     <p>Stay informed about the latest news and events in San
                         Francisco. From local festivals to development projects,
@@ -146,13 +151,10 @@ azerbaijan_stockers Freepik">
                     <div class="card" style="width: 17rem;">
                         <img src="img/constructionpermit.jpg"
                             class="card-img-top" alt="vectorjuice Freepik">
-                        <div class="card-body">
+                        <div class="card-body" id="procedures-card1">
                             <h5 class="card-title">Construction permits</h5>
-                            <p class="card-text">Some quick example text to
-                                build on
-                                the card title and make up the bulk of the
-                                card's
-                                content.</p>
+                            <p class="card-text">If you need a building permit
+                                click the button below Formalities.</p>
                             <a href="htm/formalities.html"
                                 class="btn btn-primary">Formalities</a>
                         </div>
@@ -161,42 +163,39 @@ azerbaijan_stockers Freepik">
 
                 <div class="col-sm-12 col-md-6 col-lg-3 mb-sm-1">
                     <div class="card" style="width: 17rem;">
-                        <img src="img/mpolice.jpg" class="card-img-top" alt="storyset Freepik">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">For procedures and inquiries
-                                regarding construction permits, click on the
-                                following button.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <img src="img/mpolice.jpg" class="card-img-top"
+                            alt="storyset Freepik">
+                        <div class="card-body" id="procedures-card2">
+                            <h5 class="card-title">Municipal Police</h5>
+                            <p class="card-text">For procedures with the
+                                municipal police click on the following
+                                button.</p>
+                            <a href="#" class="btn btn-primary">Formalities</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3 mb-sm-1">
                     <div class="card" style="width: 17rem;">
-                        <img src="img/estate.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to
-                                build on
-                                the card title and make up the bulk of the
-                                card's
-                                content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <img src="img/estate.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body" id="procedures-card3">
+                            <h5 class="card-title">Living Place</h5>
+                            <p class="card-text">For procedures and queries related to your home, click on the following button.</p>
+                            <a href="#" class="btn btn-primary">Formalities</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-3 mb-sm-1">
                     <div class="card" style="width: 17rem;">
-                        <img src="img/construction.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to
-                                build on
-                                the card title and make up the bulk of the
-                                card's
-                                content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <img src="img/construction.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body" id="procedures-card4">
+                            <h5 class="card-title">Municipal Repairs</h5>
+                            <p class="card-text">For requests and inquiries
+                                about municipal repairs click on the following
+                                button.</p>
+                            <a href="#" class="btn btn-primary">Formalities</a>
                         </div>
                     </div>
                 </div>
@@ -205,7 +204,7 @@ azerbaijan_stockers Freepik">
 
         <footer class="container-fluid p-2 footer-custom" id="footer">
             <div class="row">
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12 col-md-6" id="info">
                     <p class="text-center fw-bold">Hours: <br>Monday to Friday
                         from 8:00am - 4:30pm <br>
                         Telephone Central: <br>00000000 <br>Email:
@@ -227,6 +226,7 @@ azerbaijan_stockers Freepik">
                 </div>
             </div>
         </footer>
+        <script src="js/script.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
 </html>

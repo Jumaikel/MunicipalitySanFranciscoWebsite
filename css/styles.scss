@@ -103,7 +103,7 @@ $secondary-color: #ff9b00;
   }
 
   30% {
-    line-heigth: 10px;
+    line-height: 10px;
     width: 300px;
   }
 
@@ -112,14 +112,14 @@ $secondary-color: #ff9b00;
   }
 
   95% {
-    line-heigth: 10px;
+    line-height: 10px;
     box-shadow: inset 0px 0px 0px 0px $primary-color;
   }
 
   100% {
     color: transparent;
     box-shadow: inset 0px 0px 0px 0px $primary-color;
-    line-heigth: 40px;
+    line-height: 40px;
   }
 }
 

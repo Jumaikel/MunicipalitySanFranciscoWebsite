@@ -12064,20 +12064,20 @@ textarea.form-control-lg {
     width: 35px;
   }
   30% {
-    line-heigth: 10px;
+    line-height: 10px;
     width: 300px;
   }
   40% {
     box-shadow: inset -300px 0px 0px 0px #25274d;
   }
   95% {
-    line-heigth: 10px;
+    line-height: 10px;
     box-shadow: inset 0px 0px 0px 0px #25274d;
   }
   100% {
     color: transparent;
     box-shadow: inset 0px 0px 0px 0px #25274d;
-    line-heigth: 40px;
+    line-height: 40px;
   }
 }
 .text-input {
