@@ -12105,6 +12105,10 @@ textarea.form-control-lg {
   border-color: #cc7c00;
 }
 
+.img-send {
+  max-width: 30px;
+}
+
 .my-image {
   max-width: 100%;
   height: 200px;
