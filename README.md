@@ -14,9 +14,14 @@ Welcome to the official website of the San Francisco Municipality! This website 
 This project is a static website for the San Francisco Municipality. It includes sections for general information about the municipality, details about procedures, and essential contact information.
 
 ## Instructions
-To enter the website, enter the following link:
-https://elaborate-jalebi-d28aff.netlify.app/
-Please note that this page is under development, therefore a prototype is shown.
+To enter the website, enter the following link:  
+
+
+https://elaborate-jalebi-d28aff.netlify.app/  
+
+
+Please note that this page is under development, so a prototype is shown.
+The prototype contains a home page, from which you can enter the construction permit application section from the procedure cards by pressing the Formalities button; This section contains information and a guide on construction permits. It also has two buttons, one to download a PDF with the permit form and the other to access the online form. In the online form there are spaces with the permit requirements and there is a submission button (take into account that you must complete the required spaces to continue), this button takes you to the submission section in which you must enter your ID number, your email and a code that will be sent to your email, in order to send your permit.
 
 ### Navigation
 The website features a responsive navigation bar with links to key sections, including:
